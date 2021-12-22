@@ -1,0 +1,38 @@
+/* some body adjustments */
+body
+{
+    background-color:black;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* styling the header */
+.header
+{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* align the labels with the input section */
+#category-heading
+{
+    margin-left: 1em;
+}
+#date-heading
+{
+    margin-left: 1.4em;
+} 
+
+/* task-button width setting  */
+#add-task-button
+{
+    width:10em;
+}
+
+/* limiting the display size to add a scroll window */
+.task-display
+{
+    height: 40vh;
+    width: 100vw;
+}
+
